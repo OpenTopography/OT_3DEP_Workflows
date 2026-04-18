@@ -32,7 +32,7 @@ To experiment and run one of the below Jupyter Notebooks on Google Colab click t
 
 In order to run the Jupyter Notebook on your local machine, follow these steps:
 
-Make a new directory on your local file system where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. In this case, the directory will be called `3DEP`. Change into the new directory and git clone the Github repository containing the Jupyter Notebooks and other relevant files to your local file system.
+Make a new directory on your local file system where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. In this case, the directory will be called `3DEP`. Change into the new directory and git clone the GitHub repository containing the Jupyter Notebooks and other relevant files to your local file system.
 
 ```bash
 mkdir 3DEP
@@ -42,7 +42,7 @@ git clone https://github.com/OpenTopography/OT_3DEP_Workflows
 
 Anaconda is recommended for Python package installation and management. Package versions in Anaconda are managed by the package management system *conda*. Anaconda installers for MacOS/Linux/Windows can be downloaded from https://docs.anaconda.com/anaconda/install/. Follow the instructions to install the appropriate version of Anaconda for your operating system.
 
-After installing Anaconda, create a conda virtual environment with the required dependencies (contained in `environment.yml`). Note: Exectuting the following command will automatically create the conda environment with name `3dep` and all of the required dependencies installed. If you would prefer a different name, replace `3dep` with another name in the following command:
+After installing Anaconda, create a conda virtual environment with the required dependencies (contained in `environment.yml`). Note: Executing the following command will automatically create the conda environment with name `3dep` and all of the required dependencies installed. If you would prefer a different name, replace `3dep` with another name in the following command:
 
 ```bash
 cd OT_3DEP_Workflows
@@ -75,7 +75,7 @@ Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, ref
 
 ## Issues and Feature Improvements
 
-Reporting issues and/or providing suggestions for improving these workflows or developing new ones is highly encouranged. Issues or suggested feature improvements may be submitted as an <a href="https://github.com/OpenTopography/OT_3DEP_Workflows/issues">issue</a> or by email to <a href="https://opentopography.org/contact">OpenTopography Support</a>.   
+Reporting issues and/or providing suggestions for improving these workflows or developing new ones is highly encouraged. Issues or suggested feature improvements may be submitted as an <a href="https://github.com/OpenTopography/OT_3DEP_Workflows/issues">issue</a> or by email to <a href="https://opentopography.org/contact">OpenTopography Support</a>.   
 
 ## Funding 
 
@@ -85,13 +85,13 @@ OpenTopography is supported by the National Science Foundation (NSF) under Award
 
 ## Additional Resources
 
-- The USGS 3DEP lidar point ploud pata are accessible in Entwine Point Tile (EPT) format from this <a href="https://registry.opendata.aws/usgs-lidar/">Amazon Web Services S3 Bucket</a>.
+- The USGS 3DEP lidar point cloud data are accessible in Entwine Point Tile (EPT) format from this <a href="https://registry.opendata.aws/usgs-lidar/">Amazon Web Services S3 Bucket</a>.
 
 - The USGS hydrologic unit boundaries are accessed via the <a href="https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer">USGS Watershed Dataset Map Service</a>.
 
-- The USGS 7.5' quadrangle boundaries are accessed via the <a href="https://carto.nationalmap.gov/arcgis/rest/services/map_indices/MapServer"> USGS Map Indicies Service</a>.
+- The USGS 7.5' quadrangle boundaries are accessed via the <a href="https://carto.nationalmap.gov/arcgis/rest/services/map_indices/MapServer"> USGS Map Indices Service</a>.
 
-- Documentation for open-source Python libararies used by these workflows include <a href="https://pdal.dev/en/latest/">PDAL</a> and <a href="https://gdal.org/">GDAL</a>.
+- Documentation for open-source Python libraries used by these workflows include <a href="https://pdal.dev/en/latest/">PDAL</a> and <a href="https://gdal.org/">GDAL</a>.
 
 - The <a href="https://www.unavco.org/">UNAVCO</a> Student Internship Program (<a href="https://www.unavco.org/education/student-internships/unavco-student-internship-program/">USIP</a>).
 
